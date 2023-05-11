@@ -36,16 +36,15 @@ CLI = Command line interface (terminal)
 
 **Access your node**
   
- <details>
-        <summary>Want to SSH into your node?</summary>
+ <details> <summary>Want to SSH into your node?</summary>
   
-        - Open the Terminal on any device you want to use for SSH into your node
+  - Open the Terminal on any device you want to use for SSH into your node
 
-        - write `ssh [account_name]@[ip_address]`
+  - write `ssh [account_name]@[ip_address]`
 
-        - replacing `[account_name]` with the name of the account you used when installing Citadel
+  - replacing `[account_name]` with the name of the account you used when installing Citadel
 
-        - replacing `[ip_address]` with the IP address of your node - for help see **Need your node's IP        address?
+  - replacing `[ip_address]` with the IP address of your node - for help see **Need your node's IP        address?
 
 </details>
 
