@@ -34,7 +34,7 @@ CLI = Command line interface (terminal)
 </details>
 
 <details>
-  <summary>Access your node</summary>
+  <summary>**Access your node**</summary>
   
     <details>
         <summary>Want to SSH into your node?</summary>
