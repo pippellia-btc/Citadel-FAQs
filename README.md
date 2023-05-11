@@ -108,7 +108,7 @@ _CLI = Command line interface_
 
 ### Start, Stopping, Updating
 
-#### Citadel
+### Citadel
 <details><summary>via GUI</summary>
   
 - Open any Browser and log in into to your node - for help see **Access your node**
@@ -134,7 +134,7 @@ Make sure to replace the version with the one you want to install.
 Note that it is recommended to update via GUI.
 </details>
 
-#### Your apps
+### Your apps
 
 <details><summary>via GUI</summary>
   
