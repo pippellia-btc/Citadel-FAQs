@@ -59,7 +59,7 @@ CLI = Command line interface (terminal)
 
   - Open the Tor browser
   
-  -  Type in the address bar the .onion address of your node that you can find under "Settings"
+  -  Type in the address bar the `.onion address` of your node that you can find under "Settings"
   
   - type your password
 </details>
@@ -70,9 +70,9 @@ CLI = Command line interface (terminal)
 
   - write `ssh -t [account_name]@[ip_address]`
 
-  - replacing `[account_name]` with the name of the account you used when installing Citadel
+    - replacing `[account_name]` with the name of the account you used when installing Citadel
 
-  - replacing `[ip_address]` with the IP address of your node - for help see **Need your node's IP              address?
+    - replacing `[ip_address]` with the IP address of your node - for help see **Need your node's IP              address?
  </details>
 
 ---
