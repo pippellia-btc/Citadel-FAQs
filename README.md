@@ -22,3 +22,12 @@ CLI = Command line interface (terminal)
   - enjoy Citadel
   
 </details>
+
+<details>
+   <summary>Need your node's IP address?</summary>
+  - Install Angry IP Scanner [here](https://angryip.org/)
+  
+  - Open Angry IP Scanner and press "Start"
+  
+  - Identify the IP address of your node looking at "Hostname" and "Ping" (keep in mind that Ethernet has lower ping than Wifi)
+</details>
