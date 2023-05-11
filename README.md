@@ -36,7 +36,8 @@ CLI = Command line interface (terminal)
   
   - Open Angry IP Scanner and press "Start"
   
-  - Identify the IP address of your node looking at "Hostname" and "Ping" (keep in mind that Ethernet has lower ping than Wifi)
+  - Identify the IP address of your node looking at `Hostname` and `Ping`
+  (keep in mind that Ethernet has lower ping than Wifi)
 </details>
 
 ---
@@ -80,7 +81,8 @@ CLI = Command line interface (terminal)
 ### View logs
 
 <details><summary>via GUI</summary>
-  - Open any Browser and log in into to your node - for help see **How to access your node?**
+  
+  - Open any Browser and log in into to your node - for help see [Access your node](https://github.com/pippellia-btc/Citadel-FAQs/edit/main/README.md#access-your-node)
   
   - go to "Settings"
   
