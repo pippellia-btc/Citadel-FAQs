@@ -33,8 +33,8 @@ CLI = Command line interface (terminal)
   - Identify the IP address of your node looking at "Hostname" and "Ping" (keep in mind that Ethernet has lower ping than Wifi)
 </details>
 
-<details>
-  <summary>**Access your node**</summary>
+
+**Access your node**
   
     <details>
         <summary>Want to SSH into your node?</summary>
