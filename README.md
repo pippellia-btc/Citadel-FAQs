@@ -39,12 +39,31 @@ CLI = Command line interface (terminal)
   - Identify the IP address of your node looking at "Hostname" and "Ping" (keep in mind that Ethernet has lower ping than Wifi)
 </details>
 
+---
 
 ### Access your node
   
   You can access your node via GUI (Graphical User Interface) or via SSH (Terminal) from your home-network.
   If you want to access your node from a remote place (not from within your home-network) you can also do     so either via GUI on Tor-Browser or via SSH.
+ 
+ <details><summary>via GUI in home network</summary>
+
+  - Open any browser
   
+  -  Type in the address bar `citadel.local` OR your node IP address - for help see **Need your node's IP address?**
+  
+  - type your password
+</details>
+
+ <details><summary>via GUI with Tor</summary>
+
+  - Open the Tor browser
+  
+  -  Type in the address bar the .onion address of your node that you can find under "Settings"
+  
+  - type your password
+</details>
+ 
  <details> <summary>via SSH</summary>
   
   - Open the Terminal on any device you want to use for SSH into your node
@@ -53,19 +72,10 @@ CLI = Command line interface (terminal)
 
   - replacing `[account_name]` with the name of the account you used when installing Citadel
 
-  - replacing `[ip_address]` with the IP address of your node - for help see **Need your node's IP        address?
-  
-</details>
+  - replacing `[ip_address]` with the IP address of your node - for help see **Need your node's IP              address?
+ </details>
 
-<details><summary>via GUI</summary>
-
-  - Open any browser
-  
-  -  Type in the address bar `citadel.local` OR your node IP address - for help see **Need your node's IP address?**
-  
-- type your password
-  
-</details>
+---
 
 ### View logs
 
@@ -79,17 +89,21 @@ CLI = Command line interface (terminal)
 
 <details><summary>via CLI</summary>
 
-  - SSH into your node - for help see **Want to SSH into your node?**
+  - SSH into your node - for help see **Access your node**
   
-  - write `sudo ~/citadel/scripts/debug --upload --no-tor`
+  - for detailed logs write `sudo ~/citadel/scripts/debug --upload --no-tor`
   
-  There are other several other options for general logs:
+  There are several other options for citadel logs:
   - `cat ~/citadel/logs/karen.log`
   - `cat ~/citadel/logs/status-monitor.log`
   - `cat ~/citadel/logs/backup-monitor.log`
   
+  And there are also application-specific logs.
   
-  
+  - `sudo docker logs --tail=100 lnbits-main-lnd-1`
+  - `sudo docker logs --tail=100 lnd-service-1`
+  - `sudo docker logs --tail=100 lnd-backup-1`
+  - `sudo docker logs --tail=100 manager`
   
 </details>
 
