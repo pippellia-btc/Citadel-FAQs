@@ -70,9 +70,9 @@ CLI = Command line interface (terminal)
 
   - write `ssh -t [account_name]@[ip_address]`
 
-    - replacing `[account_name]` with the name of the account you used when installing Citadel
+      - replacing `[account_name]` with the name of the account you used when installing Citadel
 
-    - replacing `[ip_address]` with the IP address of your node - for help see **Need your node's IP              address?
+      - replacing `[ip_address]` with the IP address of your node - for help see **Need your node's IP              address?
  </details>
 
 ---
