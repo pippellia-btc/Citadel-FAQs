@@ -82,7 +82,7 @@ CLI = Command line interface (terminal)
 
 <details><summary>via GUI</summary>
   
-  - Open any Browser and log in into to your node - for help see [Access your node](https://github.com/pippellia-btc/Citadel-FAQs/edit/main/README.md#access-your-node)
+  - Open any Browser and log in into to your node - for help see **Access your node**
   
   - go to "Settings"
   
@@ -119,9 +119,9 @@ CLI = Command line interface (terminal)
   
 - go to "Settings"
   
-- Updating: click "Check for updates", then "Install Now" if there are any updates
+- _Updating_: click "Check for updates", then "Install Now" if there are any updates
 
-- Stopping: click "Shutdown" or "Restart"
+- _Stopping_: click "Shutdown" or "Restart"
 
 </details>
 
@@ -129,11 +129,11 @@ CLI = Command line interface (terminal)
   
 - SSH into your node - for help see **Access your node**
   
-- Start: write `sudo ~/citadel/scripts/start`
+- _Start_: write `sudo ~/citadel/scripts/start`
 
-- Stop: write `sudo ~/citadel/scripts/stop`
+- _Stop_: write `sudo ~/citadel/scripts/stop`
   
-- Update: write `sudo ~/citadel/scripts/update/update --repo runcitadel/core#v0.2.2`
+- _Update_: write `sudo ~/citadel/scripts/update/update --repo runcitadel/core#v0.2.2`
 Make sure to replace the version with the one you want to install.
 Note that it is recommended to update via GUI.
 </details>
@@ -144,23 +144,53 @@ Note that it is recommended to update via GUI.
   
 - Open any Browser and log in into to your node - for help see **Access your node**
   
-- Installation: Go to "App Store" where you can find all compatible Apps for your Version of Citadel. Choose the app you want and click install and
+- _Installation_: Go to "App Store" where you can find all compatible Apps for your Version of Citadel. Choose the app you want and click install and
 copy the passwort shown in the right upper corner to open the app. All installed apps are also accessible from the menue "Apps"
 
-- Updating: Go to "Apps" and click "Update"
+- _Updating_: Go to "Apps" and click "Update"
   
-- Deinstallation: Go to "Apps" and click "Edit", choose the App to deinstall and click "Uninstall"
+- _Deinstallation_: Go to "Apps" and click "Edit", choose the App to deinstall and click "Uninstall"
 
 </details>
 
 <details><summary>via CLI</summary>
   
+  As an example we took LNbits here but it works like this for all others, too.
+  
 - SSH into your node - for help see **Access your node**
   
-- Start: write `sudo ~/citadel/scripts/app start [app_name]`, replacing `[app_name]` with the name of the app you want to install, for example `lnbits`
+- Start: write `sudo ~/citadel/scripts/app start lnbits`
 
 - Stop: write `sudo ~/citadel/scripts/app stop lnbits`
   
 - Update: write `sudo ~/citadel/scripts/app stop lnbits && sudo ~/citadel/scripts/app update && sudo ~/citadel/scripts/app start lnbits`
   
 </details>
+
+---
+
+### Backup
+
+Citadel does an automatic backup of your channel. Additionally you can run a backup, whenever you like by SSHing into your node and typing
+
+`I HAVE ABSOLUTELY NO IDEA.COM`
+
+---
+
+### Restore
+
+We hope you did the backup! Having done that we can move on 🔥
+
+`sudo ~/citadel/scripts/stop && sudo rm -rf ~/citadel/app-data/* && sudo rm -f ~/citadel/statuses/configured ~/citadel/db/user.json ~/citadel/db/citadel-seed/seed && sudo ~/citadel/scripts/start && sudo ~/citadel/scripts/start
+
+---
+
+**Did you find these FAQs helpful and valuable? You can give value back!**
+
+**In ⌛ Time, 🎨 Talent and 🧡 Sats!** 
+
+Help us share Citadel with friends and family and consider sending some sats our way on our [Geyser page](https://geyser.fund/project/runcitadel). Thank you :pray:
+
+---
+
+### Need additional help?
