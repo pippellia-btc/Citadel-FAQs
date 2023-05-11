@@ -25,6 +25,7 @@ CLI = Command line interface (terminal)
 
 <details>
    <summary>Need your node's IP address?</summary>
+  
   - Install Angry IP Scanner [here](https://angryip.org/)
   
   - Open Angry IP Scanner and press "Start"
