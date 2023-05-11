@@ -10,10 +10,11 @@ CLI = Command line interface (terminal)
 
 ---
 
+### Quickstart
 
-"<details><summary></summary>
+<details><summary></summary>
 
-</details>"
+</details>
 
 <details>
   <summary>I have installed Citadel OS, what now?</summary>
@@ -41,11 +42,14 @@ CLI = Command line interface (terminal)
 
 ### Access your node
   
+  You can access your node via GUI (Graphical User Interface) or via SSH (Terminal) from your home-network.
+  If you want to access your node from a remote place (not from within your home-network) you can also do     so either via GUI on Tor-Browser or via SSH.
+  
  <details> <summary>via SSH</summary>
   
   - Open the Terminal on any device you want to use for SSH into your node
 
-  - write `ssh [account_name]@[ip_address]`
+  - write `ssh -t [account_name]@[ip_address]`
 
   - replacing `[account_name]` with the name of the account you used when installing Citadel
 
@@ -57,12 +61,35 @@ CLI = Command line interface (terminal)
 
   - Open any browser
   
--  Type in the address bar `citadel.local` OR your node IP address - for help see **Need your node's IP address?**
+  -  Type in the address bar `citadel.local` OR your node IP address - for help see **Need your node's IP address?**
   
 - type your password
   
 </details>
 
+### View logs
 
+<details><summary>via GUI</summary>
+  - Open any Browser and log in into to your node - for help see **How to access your node?**
+  
+  - go to "Settings"
+  
+  - under "Troubleshooting" press "Start"
+</details>
 
+<details><summary>via CLI</summary>
+
+  - SSH into your node - for help see **Want to SSH into your node?**
+  
+  - write `sudo ~/citadel/scripts/debug --upload --no-tor`
+  
+  There are other several other options for general logs:
+  - `cat ~/citadel/logs/karen.log`
+  - `cat ~/citadel/logs/status-monitor.log`
+  - `cat ~/citadel/logs/backup-monitor.log`
+  
+  
+  
+  
+</details>
 
