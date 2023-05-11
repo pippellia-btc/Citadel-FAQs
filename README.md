@@ -12,10 +12,6 @@ CLI = Command line interface (terminal)
 
 ### Quickstart
 
-<details><summary></summary>
-
-</details>
-
 <details>
   <summary>I have installed Citadel OS, what now?</summary>
   
@@ -47,7 +43,7 @@ CLI = Command line interface (terminal)
   You can access your node via GUI (Graphical User Interface) or via SSH (Terminal) from your home-network.
   If you want to access your node from a remote place (not from within your home-network) you can also do     so either via GUI on Tor Browser or via SSH.
  
- <details><summary>via GUI in home network</summary>
+ <details><summary>via GUI in your home network</summary>
 
   - Open any browser
   
@@ -159,11 +155,11 @@ copy the passwort shown in the right upper corner to open the app. All installed
   
 - SSH into your node - for help see **Access your node**
   
-- Start: write `sudo ~/citadel/scripts/app start lnbits`
+- _Start_: write `sudo ~/citadel/scripts/app start lnbits`
 
-- Stop: write `sudo ~/citadel/scripts/app stop lnbits`
+- _Stop_: write `sudo ~/citadel/scripts/app stop lnbits`
   
-- Update: write `sudo ~/citadel/scripts/app stop lnbits && sudo ~/citadel/scripts/app update && sudo ~/citadel/scripts/app start lnbits`
+- _Update_: write `sudo ~/citadel/scripts/app stop lnbits && sudo ~/citadel/scripts/app update && sudo ~/citadel/scripts/app start lnbits`
   
 </details>
 
@@ -194,3 +190,25 @@ Help us share Citadel with friends and family and consider sending some sats our
 ---
 
 ### Need additional help?
+
+<details><summary>via GUI</summary>
+- generate logs - for help see **view logs**
+  
+- Press "Download logs"
+  
+- Join the [Telegram group of Citadel](https://t.me/runcitadel/1), describe in detail what happened and attach the logs file.
+  
+- have patience :)
+  We are a small team, but we are trying our best to get back to you asap!
+</details>
+
+<details><summary>via CLI</summary>
+- generate logs - for help see **view logs**
+  
+- copy the sharable link you get
+  
+- Join the [Telegram group of Citadel](https://t.me/runcitadel/1), describe in detail what happened and paste the logs's link
+  
+- have patience :)
+  We are a small team, but we are trying our best to get back to you asap!
+</details>
