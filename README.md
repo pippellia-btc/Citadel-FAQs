@@ -17,7 +17,7 @@ _CLI = Command line interface_
   
   - Open any browser from any of your devices
   
-  - Type in the address bar `citadel.local` OR your node IP address - for help see **Need your node's IP address?**
+  - Type in the address bar `citadel.local` OR your node IP address - for help see [Need your node's IP address?](#quickstart)
   
   - type in your password
   
@@ -56,7 +56,7 @@ _CLI = Command line interface_
 
   - Open the Tor browser
   
-  -  Type in the address bar the `.onion address` of your node that you can find under "Settings"
+  - Type in the address bar the `.onion address` of your node that you can find under "Settings"
   
   - type your password
 </details>
@@ -69,7 +69,7 @@ _CLI = Command line interface_
 
       - replacing `[account_name]` with the name of the account you used when installing Citadel
 
-      - replacing `[ip_address]` with the IP address of your node - for help see **Need your node's IP              address?**
+      - replacing `[ip_address]` with the IP address of your node - for help see [Need your node's IP   address?](#quickstart)
  </details>
 
 ---
