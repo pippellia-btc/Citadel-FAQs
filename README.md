@@ -78,7 +78,7 @@ _CLI = Command line interface_
 
 <details><summary>via GUI</summary>
   
-  - Open any Browser and log in into to your node - for help see **Access your node**
+  - Open any Browser and log in into to your node - for help see [Access your node](#access-your-node)
   
   - go to "Settings"
   
@@ -87,7 +87,7 @@ _CLI = Command line interface_
 
 <details><summary>via CLI</summary>
 
-  - SSH into your node - for help see **Access your node**
+  - SSH into your node - for help see [Access your node](#access-your-node)
   
   - for detailed logs write `sudo ~/citadel/scripts/debug --upload --no-tor`
   
@@ -111,7 +111,7 @@ _CLI = Command line interface_
 ### Citadel
 <details><summary>via GUI</summary>
   
-- Open any Browser and log in into to your node - for help see **Access your node**
+- Open any Browser and log in into to your node - for help see [Access your node](#access-your-node)
   
 - go to "Settings"
   
@@ -123,7 +123,7 @@ _CLI = Command line interface_
 
 <details><summary>via CLI</summary>
   
-- SSH into your node - for help see **Access your node**
+- SSH into your node - for help see [Access your node](#access-your-node)
   
 - _Start_: write `sudo ~/citadel/scripts/start`
 
@@ -138,7 +138,7 @@ Note that it is recommended to update via GUI.
 
 <details><summary>via GUI</summary>
   
-- Open any Browser and log in into to your node - for help see **Access your node**
+- Open any Browser and log in into to your node - for help see [Access your node](#access-your-node)
   
 - _Installation_: Go to "App Store" where you can find all compatible Apps for your Version of Citadel. Choose the app you want and click install and
 copy the passwort shown in the right upper corner to open the app. All installed apps are also accessible from the menue "Apps"
@@ -153,7 +153,7 @@ copy the passwort shown in the right upper corner to open the app. All installed
   
   As an example we took LNbits here but it works like this for all others, too.
   
-- SSH into your node - for help see **Access your node**
+- SSH into your node - for help see [Access your node](#access-your-node)
   
 - _Start_: write `sudo ~/citadel/scripts/app start lnbits`
 
@@ -193,7 +193,7 @@ Help us share Citadel with friends and family and consider sending some sats our
 
 <details><summary>via GUI</summary>
 
-- generate logs - for help see **view logs**
+- generate logs - for help see [view logs](#view-logs)
   
 - Press "Download logs"
   
@@ -205,7 +205,7 @@ Help us share Citadel with friends and family and consider sending some sats our
 
 <details><summary>via CLI</summary>
 
-- generate logs - for help see **view logs**
+- generate logs - for help see [view logs](#view-logs)
   
 - copy the sharable link you get
   
