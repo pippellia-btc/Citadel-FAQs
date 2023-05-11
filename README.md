@@ -32,3 +32,25 @@ CLI = Command line interface (terminal)
   
   - Identify the IP address of your node looking at "Hostname" and "Ping" (keep in mind that Ethernet has lower ping than Wifi)
 </details>
+
+<details>
+  <summary>Access your node</summary>
+  
+    <details>
+        <summary>Want to SSH into your node?</summary>
+  
+        - Open the Terminal on any device you want to use for SSH into your node
+
+        - write `ssh [account_name]@[ip_address]`
+
+        - replacing `[account_name]` with the name of the account you used when installing Citadel
+
+        - replacing `[ip_address]` with the IP address of your node - for help see **Need your node's IP        address?
+
+      </details>
+  
+
+</details>
+
+
+
