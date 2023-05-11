@@ -72,7 +72,7 @@ CLI = Command line interface (terminal)
 
       - replacing `[account_name]` with the name of the account you used when installing Citadel
 
-      - replacing `[ip_address]` with the IP address of your node - for help see **Need your node's IP              address?
+      - replacing `[ip_address]` with the IP address of your node - for help see **Need your node's IP              address?**
  </details>
 
 ---
@@ -104,6 +104,17 @@ CLI = Command line interface (terminal)
   - `sudo docker logs --tail=100 lnd-service-1`
   - `sudo docker logs --tail=100 lnd-backup-1`
   - `sudo docker logs --tail=100 manager`
+</details>
+
+---
+
+### Start, Stopping, Updating
+
+<details><summary>Citadel</summary>
+
+    <details><summary>fdsf</summary>
+
+      </details>
   
 </details>
 
