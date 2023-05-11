@@ -44,7 +44,7 @@ CLI = Command line interface (terminal)
 ### Access your node
   
   You can access your node via GUI (Graphical User Interface) or via SSH (Terminal) from your home-network.
-  If you want to access your node from a remote place (not from within your home-network) you can also do     so either via GUI on Tor-Browser or via SSH.
+  If you want to access your node from a remote place (not from within your home-network) you can also do     so either via GUI on Tor Browser or via SSH.
  
  <details><summary>via GUI in home network</summary>
 
