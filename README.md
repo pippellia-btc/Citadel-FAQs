@@ -11,9 +11,9 @@ CLI = Command line interface (terminal)
 ---
 
 
-<details><summary></summary>
+"<details><summary></summary>
 
-</details>
+</details>"
 
 <details>
   <summary>I have installed Citadel OS, what now?</summary>
@@ -39,7 +39,7 @@ CLI = Command line interface (terminal)
 </details>
 
 
-###Access your node
+### Access your node
   
  <details> <summary>via SSH</summary>
   
@@ -50,10 +50,19 @@ CLI = Command line interface (terminal)
   - replacing `[account_name]` with the name of the account you used when installing Citadel
 
   - replacing `[ip_address]` with the IP address of your node - for help see **Need your node's IP        address?
-
-  
   
 </details>
+
+<details><summary>via GUI</summary>
+
+  - Open any browser
+  
+-  Type in the address bar `citadel.local` OR your node IP address - for help see **Need your node's IP address?**
+  
+- type your password
+  
+</details>
+
 
 
 
