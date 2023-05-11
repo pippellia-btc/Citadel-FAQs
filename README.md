@@ -47,7 +47,7 @@ _CLI = Command line interface_
 
   - Open any browser
   
-  -  Type in the address bar `citadel.local` OR your node IP address - for help see [Need your node's IP address?](###quickstart)
+  -  Type in the address bar `citadel.local` OR your node IP address - for help see [Need your node's IP address?](#quickstart)
   
   - type your password
 </details>
