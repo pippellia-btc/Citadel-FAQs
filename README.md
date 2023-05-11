@@ -2,11 +2,11 @@
 
 ---
 
-### Terminology
+#### Terminology
 
-GUI = Graphical user interface (Web browser)
+_GUI = Graphical user interface_
 
-CLI = Command line interface (terminal)
+_CLI = Command line interface_
 
 ---
 
@@ -40,10 +40,10 @@ CLI = Command line interface (terminal)
 
 ### Access your node
   
-  You can access your node via GUI (Graphical User Interface) or via SSH (Terminal) from your home-network.
+  You can access your node via _GUI (Graphical User Interface)_ or via _SSH (Terminal)_ from your home-network.
   If you want to access your node from a remote place (not from within your home-network) you can also do     so either via GUI on Tor Browser or via SSH.
  
- <details><summary>via GUI in your home network</summary>
+ <details><summary>via GUI - home network</summary>
 
   - Open any browser
   
@@ -52,7 +52,7 @@ CLI = Command line interface (terminal)
   - type your password
 </details>
 
- <details><summary>via GUI with Tor</summary>
+ <details><summary>via GUI - Tor</summary>
 
   - Open the Tor browser
   
