@@ -10,6 +10,11 @@ CLI = Command line interface (terminal)
 
 ---
 
+
+<details><summary></summary>
+
+</details>
+
 <details>
   <summary>I have installed Citadel OS, what now?</summary>
   
@@ -34,9 +39,9 @@ CLI = Command line interface (terminal)
 </details>
 
 
-**Access your node**
+###Access your node
   
- <details> <summary>Want to SSH into your node?</summary>
+ <details> <summary>via SSH</summary>
   
   - Open the Terminal on any device you want to use for SSH into your node
 
@@ -46,6 +51,8 @@ CLI = Command line interface (terminal)
 
   - replacing `[ip_address]` with the IP address of your node - for help see **Need your node's IP        address?
 
+  
+  
 </details>
 
 
