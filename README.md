@@ -177,7 +177,7 @@ Citadel does an automatic backup of your channel. Additionally you can run a bac
 
 We hope you did the backup! Having done that we can move on 🔥
 
-`sudo ~/citadel/scripts/stop && sudo rm -rf ~/citadel/app-data/* && sudo rm -f ~/citadel/statuses/configured ~/citadel/db/user.json ~/citadel/db/citadel-seed/seed && sudo ~/citadel/scripts/start && sudo ~/citadel/scripts/start
+write `sudo ~/citadel/scripts/stop && sudo rm -rf ~/citadel/app-data/* && sudo rm -f ~/citadel/statuses/configured ~/citadel/db/user.json ~/citadel/db/citadel-seed/seed && sudo ~/citadel/scripts/start && sudo ~/citadel/scripts/start`
 
 ---
 
@@ -192,6 +192,7 @@ Help us share Citadel with friends and family and consider sending some sats our
 ### Need additional help?
 
 <details><summary>via GUI</summary>
+
 - generate logs - for help see **view logs**
   
 - Press "Download logs"
@@ -203,6 +204,7 @@ Help us share Citadel with friends and family and consider sending some sats our
 </details>
 
 <details><summary>via CLI</summary>
+
 - generate logs - for help see **view logs**
   
 - copy the sharable link you get
