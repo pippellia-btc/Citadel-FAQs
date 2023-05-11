@@ -110,11 +110,55 @@ CLI = Command line interface (terminal)
 
 ### Start, Stopping, Updating
 
-<details><summary>Citadel</summary>
-
-    <details><summary>fdsf</summary>
-
-      </details>
+#### Citadel
+<details><summary>via GUI</summary>
   
+- Open any Browser and log in into to your node - for help see **Access your node**
+  
+- go to "Settings"
+  
+- Updating: click "Check for updates", then "Install Now" if there are any updates
+
+- Stopping: click "Shutdown" or "Restart"
+
 </details>
 
+<details><summary>via CLI</summary>
+  
+- SSH into your node - for help see **Access your node**
+  
+- Start: write `sudo ~/citadel/scripts/start`
+
+- Stop: write `sudo ~/citadel/scripts/stop`
+  
+- Update: write `sudo ~/citadel/scripts/update/update --repo runcitadel/core#v0.2.2`
+Make sure to replace the version with the one you want to install.
+Note that it is recommended to update via GUI.
+</details>
+
+#### Your apps
+
+<details><summary>via GUI</summary>
+  
+- Open any Browser and log in into to your node - for help see **Access your node**
+  
+- Installation: Go to "App Store" where you can find all compatible Apps for your Version of Citadel. Choose the app you want and click install and
+copy the passwort shown in the right upper corner to open the app. All installed apps are also accessible from the menue "Apps"
+
+- Updating: Go to "Apps" and click "Update"
+  
+- Deinstallation: Go to "Apps" and click "Edit", choose the App to deinstall and click "Uninstall"
+
+</details>
+
+<details><summary>via CLI</summary>
+  
+- SSH into your node - for help see **Access your node**
+  
+- Start: write `sudo ~/citadel/scripts/app start [app_name]`, replacing `[app_name]` with the name of the app you want to install, for example `lnbits`
+
+- Stop: write `sudo ~/citadel/scripts/app stop lnbits`
+  
+- Update: write `sudo ~/citadel/scripts/app stop lnbits && sudo ~/citadel/scripts/app update && sudo ~/citadel/scripts/app start lnbits`
+  
+</details>
